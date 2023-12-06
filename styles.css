@@ -18,6 +18,7 @@ body {
 
 h2 {
   text-align:center;
+  font-size:45px;
 }
 
 ul.topnav {
@@ -36,6 +37,7 @@ ul.topnav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 25px;
   }
   
   ul.topnav li a:hover:not(.active) {background-color: #009999;}
@@ -51,7 +53,10 @@ ul.topnav {
 
   .leftcolumn {   
     float: left;
-    width: 75%;
+    width: 70%;
+    line-height: 1.8;
+    text-align:center;
+    border: solid #009999;
   }
   
   /* Right column */
@@ -66,13 +71,11 @@ ul.topnav {
   .fakeimg {
     background-color: #aaa;
     width: 100%;
-    padding: 20px;
   }
   
   /* Add a card effect for articles */
   .card {
     background-color: white;
-    padding: 20px;
     margin-top: 20px;
   }
   
