@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
     <title>Contact</title>
 </head>
+
 <body>
     <div class="header">
         <h1>Contact Me &darr;</h1>
@@ -15,11 +17,22 @@
         <li><a href="contact.html">Contact</a></li>
         <li><a href="resume.html">Resumé</a></li>
     </ul>
-<form action="thankyou.html">
-<label for="fname">First Name:</label><br>
-<input type="text" id="fname" name="fname" value="Jessie"><br>
-<label for="lname">Last Name:</label><br>
-<input type="text" id="lname" name="lname" value="Quick"><br>
-</form>
+    <div class="container">
+    <form action="thankyou.html">
+        <label for="fname"><b>First Name:</b></label><br>
+        <input type="text" id="fname" name="fname" value="Jessie" required><br>
+        <label for="lname"><b>Last Name:</b></label><br>
+        <input type="text" id="lname" name="lname" value="Quick" required><br>
+
+        <label for="phone"><b>Enter your phone number:</b></label><br>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required><br>
+
+        <label for="email"><b>Enter your Email:</b></label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit">
+    </form>
+    </div>
 </body>
+
 </html>
