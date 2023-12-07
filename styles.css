@@ -31,6 +31,7 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #b3ffff;
+  line-height: 1.8;
 }
 
 ul.topnav li {
